@@ -13,6 +13,10 @@ module.exports = {
       template: './public/index.html',
       filename: 'index.html',
     }),
-    // new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(),
   ],
+  devServer: {
+    port: 3000,
+    open: true,
+  },
 };
