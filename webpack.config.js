@@ -15,8 +15,5 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
-  devServer: {
-    port: 3000,
-    open: true,
-  },
+
 };
